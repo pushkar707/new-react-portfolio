@@ -3,7 +3,9 @@ import project2 from '../assets/projects/project-2.png';
 import project3 from '../assets/projects/project-3.png';
 import project4 from '../assets/projects/project-4.png';
 
-export const HERO_CONTENT = `Hi, I'm a passionate BE-focused full-stack developer. I love to see code turning to powerful softwares. MERN Stack developer with a knack for crafting robust and scalable web applications. Proficient in Django as well. Committed to adhering to best coding practices, ensuring excellence in error handling, security, performance, hosting, testing, and monitoring.`;
+export const HERO_CONTENT = `I completed a three-month Google Summer of Code internship, during which I successfully delivered high-impact improvements to open-source projects. With two years of full-time internship experience, I have solo managed entire applications to work on bigger projects as part of a team.
+<br/><br/>
+My strong foundation in system design is complemented by practical experience with advanced technologies, including Redis, Kafka, Docker, Kubernetes, edge networks, auto-scaling, testing, monitoring, etc. Notable projects include a multiplayer Uno game and a Netlify clone hosting React sites`;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 

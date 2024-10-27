@@ -38,8 +38,9 @@ const Hero = () => {
               initial="hidden"
               animate="visible"
               className="my-2 max-w-xl py-6 font-light tracking-tighter"
+              dangerouslySetInnerHTML={{__html: HERO_CONTENT}}
             >
-              {HERO_CONTENT}
+              {/* {HERO_CONTENT} */}
             </motion.p>
           </div>
         </div>
