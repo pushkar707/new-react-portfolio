@@ -34,7 +34,7 @@ export const EXPERIENCES = [
   },
   {
     year: 'July 2022 - Jan 2023',
-    role: 'Full stack Developer Full-time Intern',
+    role: 'Digital Executive Full-time Intern',
     company: 'Stickman Services',
     description: `Contributed to development of various company's projects, i.e., admin dashboards for testing company, e-commerce website for e-commerce along with dashboard for products, orders and customer management, etc`,
     technologies: ['Node.js', 'React', 'Vanilla.js', 'MongoDB'],
