@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from '../constants';
-import profilePic from '../assets/kevinRushProfile.png';
+import profilePic from '../assets/hero.jpg';
 import { motion } from 'framer-motion';
 
 const container = (delay) => ({
@@ -38,10 +38,15 @@ const Hero = () => {
               initial="hidden"
               animate="visible"
               className="my-2 max-w-xl py-6 font-light tracking-tighter"
-              dangerouslySetInnerHTML={{__html: HERO_CONTENT}}
+              dangerouslySetInnerHTML={{ __html: HERO_CONTENT }}
             >
               {/* {HERO_CONTENT} */}
             </motion.p>
+            <a href="https://drive.google.com/file/d/11dhNc4bKf7boKuWwAZaT7e6WfROFLRcD/view">
+              <button className="text-xl bg-neutral-800 font-medium text-purple-500 rounded-3xl px-7 py-2 hover:bg-purple-500 hover:text-white duration-300">
+                Resume
+              </button>
+            </a>
           </div>
         </div>
         <div className="w-full lg:w-1/2 lg:p-8">
@@ -55,7 +60,6 @@ const Hero = () => {
                 alt="Pushkar Bansal"
               />
             </div>
-            <p className="uppercase text-xs font-light text-right">Representational</p>
           </div>
         </div>
       </div>
