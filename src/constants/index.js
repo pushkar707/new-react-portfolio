@@ -4,9 +4,9 @@ import project3 from '../assets/projects/project-3.png';
 import project4 from '../assets/projects/project-4.png';
 
 export const HERO_CONTENT = `
-Hi, I'm Pushkar, a SDE with 2+ years of experience building scalable, user-centric applications. My goal is to deliver 100% SLA-level reliability and exceptional user experiences to millions. I’m passionate about scalable DevOps, efficient system design, and fast, intuitive UIs.
+Hi, I'm Pushkar, and I love to see bunch of text compile to wonderful things. My goal is to deliver 100% SLA-level reliability and exceptional user experiences to millions. I’m passionate about scalable DevOps, efficient system design, and fast, intuitive UIs.
 <br/><br/>
-I contributed to <span class="font-semibold">Google Summer of Code</span>, where I successfully delivered high-impact improvements to open-source projects. With two years of full-time internship experience, I have solo managed entire applications and even worked on bigger projects as part of a team.`;
+I have been programming and building since 2020. Especially in the past 2 years thanks to various internships/contracts, I have been able to solo manage entire applications and even work on bigger projects as part of a team. Scroll further for my experiences and projects`;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
