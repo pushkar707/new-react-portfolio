@@ -15,7 +15,7 @@ export const EXPERIENCES = [
     year: 'May 2024 - Aug 2024',
     role: 'Full stack Developer',
     company: 'Google Summer of Code (Wikimedia France)',
-    description: `Converting old templates structure of <a class="underline" href=""https://lingualibre.org/>lingualibre</a>'s website to advanced REST API structure, through Django and vue.js making it faster, efficient and more maintainable by improving querying speed and implemeting DRY prinicples. Here's the <a href="https://drive.google.com/file/d/1plrWBuDnUap7ifRGTk-HEFeHqXGpp85x/view" target="_blank" class="text-purple-800">certificate</a>`,
+    description: `Converting old templates structure of <a class="underline" href="https://lingualibre.org/" target="_blank">lingualibre</a>'s website to advanced REST API structure, through Django and vue.js making it faster, efficient and more maintainable by improving querying speed and implemeting DRY prinicples. Here's the <a href="https://drive.google.com/file/d/1plrWBuDnUap7ifRGTk-HEFeHqXGpp85x/view" target="_blank" class="text-purple-800">certificate</a>`,
     technologies: ['Javascript', 'Django', 'Vue.js', 'postgres'],
   },
   {

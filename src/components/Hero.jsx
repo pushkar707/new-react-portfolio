@@ -42,7 +42,7 @@ const Hero = () => {
             >
               {/* {HERO_CONTENT} */}
             </motion.p>
-            <a href="https://drive.google.com/file/d/11dhNc4bKf7boKuWwAZaT7e6WfROFLRcD/view">
+            <a href="https://drive.google.com/file/d/11dhNc4bKf7boKuWwAZaT7e6WfROFLRcD/view" target='_blank'>
               <button className="text-xl bg-neutral-800 font-medium text-purple-500 rounded-3xl px-7 py-2 hover:bg-purple-500 hover:text-white duration-300">
                 Resume
               </button>
