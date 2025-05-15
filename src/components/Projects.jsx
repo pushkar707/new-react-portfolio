@@ -36,7 +36,10 @@ const Projects = () => {
               className="w-full max-w-xl lg:w-3/4"
             >
               <h6 className="mb-2 font-semibold">{project.title}</h6>
-              <p className="mb-4 text-neutral-400">{project.description}</p>
+              <p
+                className="mb-4 text-neutral-400"
+                dangerouslySetInnerHTML={{ __html: project.description }}
+              ></p>
               <p className="mb-4 text-neutral-400 text-underline">
                 Link:{' '}
                 <a href={project.link} target="_blank">

@@ -4,13 +4,20 @@ import project3 from '../assets/projects/project-3.png';
 import project4 from '../assets/projects/project-4.png';
 
 export const HERO_CONTENT = `
-Hi, I'm Pushkar currently based in New Delhi, India. I am a full-stack developer, and  I have been coding since 2020 and working for 2+ years through internships(including <b>GSOC 2024</b>) and contracts.
+Hi, I'm Pushkar currently based in New Delhi, India. I am a be-focused full-stack developer, and  I have been coding since 2020 and working for 3+ years through internships(including <b>GSOC 2024</b>), contracts and currently working at a Suraasa as SDE-1.
 <br/><br/>
 My aim as a developer is to build softwares that impacts millions of people. I have a keen interest in building scalable and robust systems that also provide great user experience. Scroll further to check-out my tech-stack, experiences and projects`;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
 export const EXPERIENCES = [
+  {
+    year: 'March 2025 - Present',
+    role: 'Software Development Engineer 1',
+    company: 'Suraasa',
+    description: 'Working to Build and maintain robust Django applications and APIs, optimize database performance, and ensure secure data handling—playing a key role in delivering reliable, scalable systems with smooth user experiences.',
+    technologies: ['Django', 'celery', 'GCS', 'Postgres']
+  },
   {
     year: 'May 2024 - Aug 2024',
     role: 'Full stack Developer',
@@ -43,15 +50,15 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: 'Uno online with friends',
+    title: 'Uno online with friends (Backend focused)',
     image: project1,
-    link: 'https://uno.pushkarbansal.me/',
+    link: 'https://playuno.pushkarbansal.com/',
     description:
-      'Multiplayer uno game allowing upto 4 players, using redis for horizontal scaling and state management in cae of failure, hsoted on AWS ASGs',
+      'Multiplayer uno game allowing upto 4 players, using redis for horizontal scaling and state management in cae of failure, hsoted on AWS ASGs, <a href="https://medium.com/p/30e413deaa78/">Blog for working</a>.',
     technologies: ['Websockets', 'Redis', 'AWS', 'CI/CD', 'React'],
   },
   {
-    title: 'Vercel Clone',
+    title: 'Vercel Clone (Backend focused)',
     image: project2,
     link: 'https://github.com/pushkar707/vercel-clone-pushkar',
     description:
