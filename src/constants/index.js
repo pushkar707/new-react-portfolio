@@ -12,7 +12,7 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: 'March 2025 - Present',
+    year: 'Aug 2024 - Present',
     role: 'Software Development Engineer 1',
     company: 'Suraasa',
     description: 'Working to Build and maintain robust Django applications and APIs, optimize database performance, and ensure secure data handling—playing a key role in delivering reliable, scalable systems with smooth user experiences.',
